@@ -1,0 +1,220 @@
+<resources>
+
+    <!-- Bunn-navigasjon tekst -->
+    <string name="app_name">FRtrondheim</string>
+    <string name="title_activity_program">Program for fadderuka 2018</string>
+    <string name="title_activity_program_item">ProgramItemActivity</string>
+    <string name="title_activity_sponsor">SponsorActivity</string>
+    <string name="title_home">Hjem</string>
+    <string name="title_extra">Ekstra</string>
+
+    <!-- Hjemskjerm knappetekst -->
+    <string name="home_button_sponsor">Sponsorer</string>
+    <string name="home_button_spotify">Spotify lister</string>
+    <string name="home_button_groups">Faddergrupper</string>
+    <string name="home_button_program">Program</string>
+    <string name="home_button_info">Mer informasjon</string>
+
+    <!-- Array for programliste-elementer -->
+    <string-array name="programListItems">
+        <item>Mexican fiesta</item>
+        <item>Trønderfest</item>
+        <item>Bar til bar</item>
+        <item>Vors til vors</item>
+        <item>Idrettsdag</item>
+        <item>Temakveld</item>
+        <item>Togafest</item>
+        <item>Karrierekveld</item>
+        <item>Linje Vors</item>
+        <item>Silent Disco</item>
+        <item>Club Kamelen</item>
+    </string-array>
+
+    <!-- Array for programliste tittler -->
+    <string-array name="programListTitles">
+        <item>Mexican fiesta</item>
+        <item>Trønderfest</item>
+        <item>Bar til bar</item>
+        <item>Vors til vors</item>
+        <item>De BIolympiske lekene</item>
+        <item>Temakveld</item>
+        <item>Togafest</item>
+        <item>Karrierekveld</item>
+        <item>Linje Vors</item>
+        <item>Silent Disco</item>
+        <item>Ka me Klubbkamel?</item>
+    </string-array>
+
+    <!-- Array for programliste datoer -->
+    <string-array name="programListDates">
+        <item>Onsdag 15. August</item>
+        <item>Torsdag 16. August</item>
+        <item>Fredag 17. August</item>
+        <item>Lørdag 18. August</item>
+        <item>Søndag 19. August</item>
+        <item>Mandag 20. August</item>
+        <item>Tirsdag 21. August</item>
+        <item>Onsdag 22. August</item>
+        <item>Torsdag 23. August</item>
+        <item>Fredag 24. August</item>
+        <item>Lørdag 25. August</item>
+    </string-array>
+
+    <!-- Array for sponsorlist dates -->
+    <string-array name="sponsorListTitles">
+        <item>mCASH, Sparebank 1 SMN og Eiendomsmegler 1</item>
+        <item>Egon Solsiden</item>
+        <item>Egon Tårnet</item>
+        <item>O\'Learys</item>
+        <item>Nattergalen</item>
+        <item>The Mint</item>
+        <item>Wildside</item>
+        <item>3T - Trim, trening og trivsel</item>
+        <item>PhoneRep</item>
+        <item>Xiaomi</item>
+        <item>Akademika</item>
+        <item>Cubus Solsiden</item>
+        <item>Invitee</item>
+        <item>SUSHI BAR</item>
+        <item>Big Horn</item>
+        <item>Se flere aktuelle tilbud</item>
+    </string-array>
+
+    <!-- Array for sponsorlist dates -->
+    <string-array name="programListDescriptions">
+        <item>Denne kvelden tar vi med oss lyden, kulturen og smaken av Mexico til Fadderullan.
+            Ta på deg ditt beste meksikanske kostyme med sombrero, poncho og maracas. Her blir det
+            disket opp med obligatorisk tacovors med faddergruppen. Senere på kvelden møtes vi på
+            Studio 26 hvor den spinnville festen fortsetter langt uti i de sene timer for dans og
+            festligheter.\n\n
+
+            Klokkeslett: 22:00.
+        </item>
+        <item>La barten gro og gjør deg klar for en trøndersk aften. Det er ingen skikkelig
+            fadderuke i Trondheim uten trønderfæst! Finn frem din rutete skjorte, slitte jeans og
+            lange tennissokker for dette blir en festlig, og ikke minst en harry aften! Kvelden
+            rundes av på Studio 26 der den gode stemningen fortsetter. OBS! Ikke glem at det bli
+            itj fæst uten skinnvæst.\n\n
+
+            Klokkeslett: 22:00
+        </item>
+        <item>På denne dagen vil du få et innblikk i noen av de mange barene og pubene som
+            Trondheim har å by på. Dette er en fin mulighet til å bli kjent på tvers av
+            faddergruppene og finne frem vinnerinnstinktet i deg.\n\n
+
+            Vi følger suksessoppskriften fra i fjor, med å dele gruppene i to forskjellige puljer å
+            sender dere til enten Studio 26, Nattergalen, Diskoteket, Fire fine, Barmuda, Me,
+            Trondheim Camping, O\'learys, Egon Solsiden og Lille London. Her vil det foregå
+            forskjellige aktiviteter på alle barene. \n\n
+
+            (Legge inn en egen fane for oppsettet for hvor alle skal møte opp og klokkeslett)
+        </item>
+        <item>Denne kvelden handler om å bli bedre kjent med dine medstudenter. I løpet av kvelden
+            går gruppene mellom ulike vors og får muligheten til å hilse på de andre
+            faddergruppene!\n\n
+
+            (I denne fanen kan det være med en egen fane til, for å legge inn hvor de ulike
+            vorsene skal være. En oversikt der alle kan se hvor og hvem som skal møtes. Dette
+            vil være et Excel ark eller wordfil, litt som med faddergruppene)
+        </item>
+        <item>Skru på konkurranseinstinktet og finn frem vinnerviljen! Idag er dagen hvor den
+            beste faddergruppen skal kåres. BIS idrett vil være godt representert hvor
+            faddergruppene skal gå igjennom en rekke aktiviteter fra blant annet fotball og
+            vollyball! Her er det klart for å avgjøre hvilke faddergrupper som har skapt best
+            lagfølelse og moral. Det vil også bli servert mat og beste lag stikker av med en
+            premie dere garantert vil like! \n\n
+
+            Sted: Dødens dal (Legge inn på fanen Kart, om hvor Dødens Dal er)\n
+            Klokkeslett: 17:00
+        </item>
+        <item>Dette blir en kveld fylt med humor og latter. Vi møtes på selveste Studentersamfundet,
+            der vi kan garantere for en latterfull show av Piateed, Ole Soo og Jonna Støme kjent
+            fra Latter! \n\n
+
+            MARIA STAVANG AKA PIATEED\n
+            Maria Stavang er et nytt stjerneskudd på komiker himmelen. Allerede i sommeren 2015
+            startet den unge Bergenseren med standup-scenen og i 2016 tok hun med seg en av de
+            unike prisene, “Årets Nykommer” på Humorfest i Bergen. Denne jenta er flink til å
+            sjarmere, samtidig som hun er god til å by på seg selv!\n\n
+
+            OLE SOO\n
+            Ole Soo er en komiker som har jobbet seg frem med rakettfart i det norske standup
+            miljøet. Han startet sin karriere i Bergen 2010, og hvor han nå står fast på Latter i
+            Oslo. Han har tidligere skrevet for blant annet for Johan Golden, Stian Blipp Show og
+            Sturla Berg Johansen. En kveld med Ole garanterer god stemning og masse latter.\n\n
+
+            JONNA STØME\n
+            Siden debuten i 2000 har Jonna Støme gjort suksess som komiker landet rundt. Jonna har
+            en unik evne til å finne de bittesmå tingene i hverdagen som vi alle kjenner oss igjen
+            i og blåse dem opp til uante proporsjoner. Sørg for å få med deg en kveld med en av
+            landets mest populære komikere!\n\n
+
+            Klokkeslett: 18:00-21:00
+        </item>
+        <item>Finn frem din indre guddommelige side og kle deg opp på romersk vis med fletter,
+            laken og krans. Bli med fadderne deres og lag fantastisk togastemning på vors før dere
+            bærer kostymet videre til Studio 26 kl: 22:00 som også vil være pyntet opp for en
+            romersk helaften.\n\n
+
+            Klokkeslett: 22:00
+        </item>
+        <item>Lurer du på hvilke muligheter som ligger til rette etter du er ferdig utdannet?
+            Da er dette kvelden for deg! Våre samarbeidspartnere vil stå på stand, hvor det er
+            muligheter for mingling og ulike konkurranser med diverse premier! I tillegg til
+            dette vil det være ulike bedriftspresentasjoner som gir deg et innblikk i hvordan
+            hverdagen blir etter studiet. \n\n
+
+            Dress to impress, dette blir en formell aften.\n\n
+            Klokkeslett: 16:00
+        </item>
+        <item>I kveld er tiden for å bli kjent med dine klassekamerater! Kvelden gir deg en unik
+            mulighet til å bli kjent med andre studenter og kan skape et vennskap som du kommer til
+            å ha resten av livet. Det blir brettspill, kort og festligheter for de som
+            ønsker det.\n\n
+
+            Klokken 18:00 åpner dørene for BI studenter på Studentersamfundet, og
+            vors blir delt inn etter de ulike linjene. \n\n
+
+            Klokkeslett: 18:00-21:00
+        </item>
+        <item>For første gang i Fadderullan Trondheim sin historie introduserer vi Silent Disco!
+            Finn musikkanalen som passer best for deg, og slå deg løs på dansegulvet med dine
+            likesinnede. (må finne location) \n\n
+
+            Klokkeslett: (KOMMER)
+        </item>
+        <item>Nå er Fadderullan kommet til en ende og vi avslutter det med et smell!
+            Selveste Bergens rapperen Kamelen kommer til Frimurerlogen og skal koke opp
+            lokalet til en sinnsyk fest! \n\n
+
+            Klokkeslett: (KOMMER)
+        </item>
+    </string-array>
+
+    <string name="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+        non malesuada erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+        cubilia Curae; Praesent ligula arcu, convallis non orci viverra, blandit porttitor sem.
+        Morbi non eleifend neque. Integer cursus nulla eget urna vehicula auctor. Maecenas at
+        lorem sit amet neque suscipit viverra et nec tortor. Nam sit amet gravida velit. Class
+        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        Proin commodo enim nulla, quis volutpat turpis malesuada nec. Fusce at lacinia lacus.
+        Mauris volutpat facilisis elit, in aliquam nunc rutrum eu. Integer mauris metus, porta eget
+        ipsum in, finibus rhoncus tortor. Pellentesque at libero odio. Nam quis pharetra nibh.
+        Aenean vulputate dapibus neque. Fusce eget lorem hendrerit, blandit sapien non, laoreet
+        neque.\n\n
+
+        Donec bibendum bibendum urna sed volutpat. Donec lobortis dictum ullamcorper. Aliquam ac
+        aliquet est. Nullam vitae nulla id elit laoreet dapibus vitae at lorem. Curabitur commodo
+        commodo leo, in mollis enim dictum vel. Maecenas dapibus elit eu lorem dignissim, eget
+        vestibulum magna auctor. In a hendrerit nibh, eu ultricies felis. Curabitur ac cursus eros.
+        Duis hendrerit lacinia magna vitae aliquam. Nam sit amet lorem urna.\n\n
+
+        Proin malesuada augue sit amet justo ullamcorper, eget suscipit urna feugiat. Maecenas et
+        felis diam. Suspendisse sed blandit quam, vel commodo leo. Nullam efficitur odio nec eros
+        congue, ac congue arcu fringilla. Morbi dictum ipsum a nisl gravida malesuada. Praesent sit
+        amet arcu a diam aliquet tincidunt. Proin quis eros nec justo molestie fringilla.
+        Pellentesque non enim erat. Etiam rhoncus dignissim tellus ac laoreet. Nulla nec pharetra
+        arcu, at posuere tortor.
+    </string>
+
+</resources>
