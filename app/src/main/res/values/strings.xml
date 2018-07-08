@@ -1,21 +1,49 @@
 <resources>
 
-    <!-- Bunn-navigasjon tekst -->
+    <!-- General -->
     <string name="app_name">FRtrondheim</string>
     <string name="title_activity_program">Program for fadderuka 2018</string>
     <string name="title_activity_program_item">ProgramItemActivity</string>
-    <string name="title_activity_sponsor">SponsorActivity</string>
-    <string name="title_home">Hjem</string>
-    <string name="title_extra">Ekstra</string>
+    <string name="title_activity_sponsor">Offisielle sponsorer av Fadderullan</string>
+    <string name="title_activity_spotify">Spotifylister</string>
+    <string name="title_activity_more_info">Mer Informasjon</string>
+    <string name="title_activity_maps">Sentrale lokasjoner</string>
+    <string name="groups_webview_link">https://www.google.com</string>
 
-    <!-- Hjemskjerm knappetekst -->
+    <!-- Home screen button text -->
     <string name="home_button_sponsor">Sponsorer</string>
     <string name="home_button_spotify">Spotify lister</string>
     <string name="home_button_groups">Faddergrupper</string>
     <string name="home_button_program">Program</string>
     <string name="home_button_info">Mer informasjon</string>
 
-    <!-- Array for programliste-elementer -->
+    <!-- More Info screen button text -->
+    <string name="info_button_faq">FAQ</string>
+    <string name="info_button_maps">Kart</string>
+    <string name="info_button_facebook">Facebook</string>
+    <string name="info_button_instagram">Instagram</string>
+    <string name="info_button_bi">at.bi</string>
+    <string name="info_button_about">Om appen</string>
+
+    <!-- About dialog text -->
+    <string name="dialog_text_about">Appen er utviklet av Lars Syversen, i samarbeid med
+        E&amp;A design AS.</string>
+
+    <!--Links -->
+    <string name="link_button_instagram">https://www.instagram.com/fadderullanbi/?hl=nb</string>
+    <string name="link_button_facebook">https://www.facebook.com/FadderullanBI/</string>
+    <string name="link_button_bi">https://at.bi.no</string>
+
+    <!-- Array for map markers -->
+    <string-array name="array_map_markers">
+        <item>Dødens Dal</item>
+        <item>Studentersamfundet</item>
+        <item>St. Olavs Hospital</item>
+        <item>BI Campus Trondheim</item>
+        <item>Trondheim Torg</item>
+    </string-array>
+
+    <!-- Array for programlist-elements -->
     <string-array name="programListItems">
         <item>Mexican fiesta</item>
         <item>Trønderfest</item>
@@ -30,7 +58,7 @@
         <item>Club Kamelen</item>
     </string-array>
 
-    <!-- Array for programliste tittler -->
+    <!-- Array for programlist titles -->
     <string-array name="programListTitles">
         <item>Mexican fiesta</item>
         <item>Trønderfest</item>
@@ -45,7 +73,7 @@
         <item>Ka me Klubbkamel?</item>
     </string-array>
 
-    <!-- Array for programliste datoer -->
+    <!-- Array for programlist dates -->
     <string-array name="programListDates">
         <item>Onsdag 15. August</item>
         <item>Torsdag 16. August</item>
@@ -60,7 +88,7 @@
         <item>Lørdag 25. August</item>
     </string-array>
 
-    <!-- Array for sponsorlist dates -->
+    <!-- Array for sponsorlist titles -->
     <string-array name="sponsorListTitles">
         <item>mCASH, Sparebank 1 SMN og Eiendomsmegler 1</item>
         <item>Egon Solsiden</item>
@@ -80,7 +108,49 @@
         <item>Se flere aktuelle tilbud</item>
     </string-array>
 
-    <!-- Array for sponsorlist dates -->
+    <!-- Array for spotifylist titles -->
+    <string-array name="spotifyListTitles">
+        <item>Fadderkickoff: 13/08</item>
+        <item>Mexican Fiesta: 15/08</item>
+        <item>Trønderfest: 16/08</item>
+        <item>Vors til vors: 18/08</item>
+        <item>Toga: 21/08</item>
+        <item>Linjevors: 23/08</item>
+        <item>Ka me klubbkamel?: 25/08</item>
+    </string-array>
+
+    <!-- Array for spotifylist links -->
+    <string-array name="spotifyListLinks">
+        <item>https://open.spotify.com/user/kine.leonardsen/playlist/4DGpyuPQsGEx7cWZU33zD1</item>
+        <item>https://open.spotify.com/user/kine.leonardsen/playlist/05DJLnlhCqZWIKbtNjkWZ5</item>
+        <item>https://open.spotify.com/user/kine.leonardsen/playlist/07BRTtFShgImmvwa2JWfEn</item>
+        <item>https://open.spotify.com/user/kine.leonardsen/playlist/6ji1fJ4XLO2xxl1dd81ymS</item>
+        <item>https://open.spotify.com/user/kine.leonardsen/playlist/6mzQu6rAnzUFinLUEjFSZD</item>
+        <item>https://open.spotify.com/user/kine.leonardsen/playlist/3f7Bl8JJjWgrtfJh0ssjRB</item>
+        <item>https://open.spotify.com/user/kine.leonardsen/playlist/0y1R4y58T1NnR6aow12OWR</item>
+    </string-array>
+
+    <!-- Array for spotifylist links -->
+    <string-array name="spotifyListUri">
+        <item>spotify:user:kine.leonardsen:playlist:4DGpyuPQsGEx7cWZU33zD1</item>
+        <item>spotify:user:kine.leonardsen:playlist:05DJLnlhCqZWIKbtNjkWZ5</item>
+        <item>spotify:user:kine.leonardsen:playlist:07BRTtFShgImmvwa2JWfEn</item>
+        <item>spotify:user:kine.leonardsen:playlist:6ji1fJ4XLO2xxl1dd81ymS</item>
+        <item>spotify:user:kine.leonardsen:playlist:6mzQu6rAnzUFinLUEjFSZD</item>
+        <item>spotify:user:kine.leonardsen:playlist:3f7Bl8JJjWgrtfJh0ssjRB</item>
+        <item>spotify:user:kine.leonardsen:playlist:0y1R4y58T1NnR6aow12OWR</item>
+    </string-array>
+
+    <!-- SponsorList dialog strings -->
+    <string name="dialogOk">Skjul</string>
+    <string name="dialogMoreInfo">Mer Info</string>
+    <string name="dialogIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+        non malesuada erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+        cubilia Curae; Praesent ligula arcu, convallis non orci viverra, blandit porttitor sem.
+        Morbi non eleifend neque. Integer cursus nulla eget urna vehicula auctor.</string>
+
+
+    <!-- Array for programlist descriptions -->
     <string-array name="programListDescriptions">
         <item>Denne kvelden tar vi med oss lyden, kulturen og smaken av Mexico til Fadderullan.
             Ta på deg ditt beste meksikanske kostyme med sombrero, poncho og maracas. Her blir det
@@ -216,5 +286,6 @@
         Pellentesque non enim erat. Etiam rhoncus dignissim tellus ac laoreet. Nulla nec pharetra
         arcu, at posuere tortor.
     </string>
+
 
 </resources>

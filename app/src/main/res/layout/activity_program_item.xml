@@ -5,14 +5,17 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/arrangement_motive"
     tools:context=".ProgramItemActivity">
 
     <TextView
         android:id="@+id/txtItemTitle"
         android:layout_width="0dp"
         android:layout_height="80dp"
+        android:background="#40000000"
         android:gravity="center"
         android:text="@string/title_activity_program_item"
+        android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -22,9 +25,7 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginStart="32dp"
+        android:background="#40000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -42,6 +43,7 @@
             android:layout_marginStart="24dp"
             android:scrollbars="vertical"
             android:text="@string/title_activity_program_item"
+            android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

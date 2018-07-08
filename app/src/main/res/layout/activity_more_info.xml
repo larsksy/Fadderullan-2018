@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moiv"
+    tools:context=".MoreInfoActivity">
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/title_activity_more_info"
+        android:textColor="@color/darkGray"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageLogo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="105dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_original" />
+
+
+    <Button
+        android:id="@+id/btnMap"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_map"
+        android:onClick="handleButtonMapsClicked"
+        android:paddingLeft="30dip"
+        android:text="@string/info_button_maps"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFAQ" />
+
+    <Button
+        android:id="@+id/btnFAQ"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_help"
+        android:onClick="handleButtonFAQClicked"
+        android:paddingLeft="30dip"
+        android:text="@string/info_button_faq"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+    <Button
+        android:id="@+id/btnInstagram"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_instagram"
+        android:onClick="handleButtonInstagramClicked"
+        android:paddingLeft="30dip"
+        android:text="@string/info_button_instagram"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFacebook" />
+
+
+    <Button
+        android:id="@+id/btnAtBI"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_info_outline_black_24dp"
+        android:paddingLeft="30dip"
+        android:text="@string/info_button_bi"
+        android:onClick="handleButtonBIClicked"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInstagram" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_info_outline_black_24dp"
+        android:paddingLeft="30dip"
+        android:onClick="handleButtonAboutClicked"
+        android:text="@string/info_button_about"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAtBI" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_facebook"
+        android:onClick="handleButtonFacebookClicked"
+        android:paddingLeft="30dip"
+        android:text="@string/info_button_facebook"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMap" />
+
+</android.support.constraint.ConstraintLayout>

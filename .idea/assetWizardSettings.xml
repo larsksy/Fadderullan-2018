@@ -3,22 +3,80 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
-        <entry key="vectorWizard">
+        <entry key="imageWizard">
           <value>
             <PersistentState>
               <option name="children">
                 <map>
-                  <entry key="vectorAssetStep">
+                  <entry key="imageAssetPanel">
                     <value>
                       <PersistentState>
                         <option name="children">
                           <map>
-                            <entry key="clipartAsset">
+                            <entry key="launcher">
                               <value>
                                 <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="backgroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="75" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="foregroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="53" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_info_outline_black_24dp.xml" />
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="f8f8f8" />
+                                      <entry key="foregroundImage" value="C:\Users\Larsk\OneDrive\Dokumenter\Jobb\Fadderullan 2018\Fadderullan-2018\app\src\main\res\ic_logo.png" />
+                                      <entry key="outputName" value="ic_icon" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                            <entry key="launcherLegacy">
+                              <value>
+                                <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="paddingPercent" value="-5" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="iconShape" value="NONE" />
+                                      <entry key="imageAsset" value="C:\Users\Larsk\OneDrive\Dokumenter\Jobb\Fadderullan 2018\Fadderullan-2018\app\src\main\res\ic_logo.png" />
+                                      <entry key="outputName" value="ic_icon_transparent" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,9 +86,30 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PersistentState>
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState>
+              <option name="children">
+                <map>
+                  <entry key="vectorAssetStep">
+                    <value>
+                      <PersistentState>
+                        <option name="values">
+                          <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_program" />
-                            <entry key="sourceFile" value="C:\Users\Larsk\Downloads\calendar.svg" />
+                            <entry key="outputName" value="ic_help" />
+                            <entry key="sourceFile" value="C:\Users\Larsk\Downloads\help.svg" />
                           </map>
                         </option>
                       </PersistentState>

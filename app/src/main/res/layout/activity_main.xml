@@ -9,12 +9,13 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnGroups"
+        android:id="@+id/btnMap"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_group"
+        android:onClick="handleButtonGroupsClicked"
         android:paddingLeft="30dip"
         android:text="@string/home_button_groups"
         android:textAlignment="textStart"
@@ -23,10 +24,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnProgram" />
+        app:layout_constraintTop_toBottomOf="@+id/btnFAQ" />
 
     <Button
-        android:id="@+id/btnProgram"
+        android:id="@+id/btnFAQ"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="0dp"
         android:layout_height="50dp"
@@ -45,12 +46,13 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btnSpotify"
+        android:id="@+id/btnInstagram"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_spotify"
+        android:onClick="handleButtonSpotifyClicked"
         android:paddingLeft="30dip"
         android:text="@string/home_button_spotify"
         android:textAlignment="textStart"
@@ -59,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSponsors" />
+        app:layout_constraintTop_toBottomOf="@+id/btnFacebook" />
 
 
     <Button
@@ -69,6 +71,7 @@
         android:layout_height="50dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_info_outline_black_24dp"
+        android:onClick="handleButtonInfoClicked"
         android:paddingLeft="30dip"
         android:text="@string/home_button_info"
         android:textAlignment="textStart"
@@ -77,10 +80,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSpotify" />
+        app:layout_constraintTop_toBottomOf="@+id/btnInstagram" />
 
     <Button
-        android:id="@+id/btnSponsors"
+        android:id="@+id/btnFacebook"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="0dp"
         android:layout_height="50dp"
@@ -94,7 +97,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnGroups" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMap" />
 
     <ImageView
         android:id="@+id/imageView"

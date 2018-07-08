@@ -23,7 +23,6 @@ class ProgramActivity : AppCompatActivity() {
         val listDates = resources.getStringArray(R.array.programListDates)
         val adapter = ProgramListAdapter(this, listItems, listDates, assets)
         programList.adapter = adapter
-        programList
         programList.setOnItemClickListener({ parent: AdapterView<*>?, v: View?, i: Int, id: Long -> openActivityBreakdown(i) })
     }
 

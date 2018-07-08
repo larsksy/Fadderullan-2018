@@ -2,8 +2,6 @@ package no.larssyversen.fadderullan2018
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.BottomNavigationView
-import android.support.v7.app.ActionBar
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
@@ -18,11 +16,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val custom_font = Typeface.createFromAsset(assets, "fonts/Roboto-Thin.ttf")
-        btnProgram.typeface = custom_font
-        btnGroups.typeface = custom_font
+        btnFAQ.typeface = custom_font
+        btnMap.typeface = custom_font
         btnInfo.typeface = custom_font
-        btnSponsors.typeface = custom_font
-        btnSpotify.typeface = custom_font
+        btnFacebook.typeface = custom_font
+        btnInstagram.typeface = custom_font
     }
 
     fun handleButtonProgramClicked(v: View) {
@@ -32,6 +30,21 @@ class MainActivity : AppCompatActivity() {
 
     fun handleButtonSponsorsClicked(v: View) {
         val intent = Intent(this, SponsorActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun handleButtonSpotifyClicked(v: View) {
+        val intent = Intent(this, SpotifyActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun handleButtonGroupsClicked(v: View) {
+        val intent = Intent(this, GroupsActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun handleButtonInfoClicked(v: View) {
+        val intent = Intent(this, MoreInfoActivity::class.java)
         startActivity(intent)
     }
 }
