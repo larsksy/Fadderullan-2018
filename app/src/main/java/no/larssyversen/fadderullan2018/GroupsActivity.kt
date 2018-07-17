@@ -10,7 +10,12 @@ class GroupsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_groups)
 
-        webViewGroups.loadUrl(resources.getString(R.string.groups_webview_link))
+
+        if (intent.hasExtra("no.larssyversen.fadderullan2018.LINK")) {
+            val bundle = intent.extras
+            val link = bundle.getString("no.larssyversen.fadderullan2018.LINK")
+            webViewGroups.loadUrl(link)
+        } else { webViewGroups.loadUrl(resources.getString(R.string.groups_webview_link)) }
 
     }
 }

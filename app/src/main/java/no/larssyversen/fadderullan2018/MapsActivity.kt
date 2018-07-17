@@ -19,9 +19,10 @@ import com.google.android.gms.maps.model.MarkerOptions
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback,
         ActivityCompat.OnRequestPermissionsResultCallback {
 
+    private val LOCATION_REQUEST_CODE: Int = 100
+
     private lateinit var mMap: GoogleMap
     private lateinit var markers: ArrayList<LatLng>
-    private val LOCATION_REQUEST_CODE: Int = 100
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

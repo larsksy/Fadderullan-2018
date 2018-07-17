@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "843242821234",
+    "firebase_url": "https://frtrondheim.firebaseio.com",
+    "project_id": "frtrondheim",
+    "storage_bucket": "frtrondheim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843242821234:android:ff2432331fcf81ca",
+        "android_client_info": {
+          "package_name": "no.larssyversen.fadderullan2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843242821234-oatdhslmu5v7blqul3oh6ilv897uqve2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-tWYDC60tvhKQ4esH1jNarYcCryd6vK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

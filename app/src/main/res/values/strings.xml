@@ -9,6 +9,8 @@
     <string name="title_activity_more_info">Mer Informasjon</string>
     <string name="title_activity_maps">Sentrale lokasjoner</string>
     <string name="groups_webview_link">https://www.google.com</string>
+    <string name="default_notification_channel_id">Generelle Notifikasjoner</string>
+    <string name="program_item_button_attendance">Oppmøte</string>
 
     <!-- Home screen button text -->
     <string name="home_button_sponsor">Sponsorer</string>
