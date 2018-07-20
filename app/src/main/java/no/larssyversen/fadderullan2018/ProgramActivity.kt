@@ -2,6 +2,7 @@ package no.larssyversen.fadderullan2018
 
 import android.content.Intent
 import android.content.res.Resources
+import android.graphics.Typeface
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
@@ -24,6 +25,10 @@ class ProgramActivity : AppCompatActivity() {
         val adapter = ProgramListAdapter(this, listItems, listDates, assets)
         programList.adapter = adapter
         programList.setOnItemClickListener({ parent: AdapterView<*>?, v: View?, i: Int, id: Long -> openActivityBreakdown(i) })
+
+        val custom_font = Typeface.createFromAsset(assets, "fonts/Roboto-Regular.ttf")
+        txtTitle.typeface = custom_font
+
     }
 
     fun openActivityBreakdown(index: Int) {

@@ -3,17 +3,29 @@ package no.larssyversen.fadderullan2018
 import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
+import android.graphics.Typeface
 import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_more_info.*
 
 class MoreInfoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_more_info)
+
+        val custom_font_regular = Typeface.createFromAsset(assets, "fonts/Roboto-Regular.ttf")
+        val custom_font_thin = Typeface.createFromAsset(assets, "fonts/Roboto-Thin.ttf")
+        txtInfoTitle.typeface = custom_font_regular
+        btnInfoAbout.typeface = custom_font_thin
+        btnInfoAtBI.typeface = custom_font_thin
+        btnInfoFAQ.typeface = custom_font_thin
+        btnInfoFacebook.typeface = custom_font_thin
+        btnInfoInstagram.typeface = custom_font_thin
+        btnInfoMaps.typeface = custom_font_thin
     }
 
     fun handleButtonMapsClicked(v: View) {

@@ -3,6 +3,7 @@ package no.larssyversen.fadderullan2018
 import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
+import android.graphics.Typeface
 import android.net.Uri
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
@@ -12,6 +13,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_more_info.*
 import kotlinx.android.synthetic.main.activity_sponsor.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -26,53 +28,21 @@ class SponsorActivity : AppCompatActivity() {
         val adapter = SponsorListAdapter(this, listItems, assets)
 
         lstSponsors.adapter = adapter
-        lstSponsors.setOnItemClickListener({ parent: AdapterView<*>?, v: View?, i: Int, id: Long -> openInfoDialog(i) })
+        lstSponsors.setOnItemClickListener({ parent: AdapterView<*>?, v: View?, i: Int, id: Long -> openSponsorBreakdown(i) })
+
+        val custom_font = Typeface.createFromAsset(assets, "fonts/Roboto-Regular.ttf")
+        txtTitle.typeface = custom_font
     }
 
-    //Show sponsor information dialog
-    fun openInfoDialog(index: Int) {
-
-        val array = resources.getStringArray(R.array.sponsorListTitles)
-        var text = resources.getString(R.string.dialogIpsum)
-        val v: View = layoutInflater.inflate(R.layout.sponsorlist_dialog, null)
-        val itemText: TextView = v.findViewById(R.id.txtInfo)
-
-        // Show extra deal
-        if (showExtraInfo(index)) {
-            text += "\n\n NEW DEAL WOW!!"
-        }
-
-        itemText.text = text
-
-        var ad: AlertDialog.Builder? = AlertDialog.Builder(this)
-        ad!!.setView(v)
-        ad.setPositiveButton(R.string.dialogOk, null)
-
-        if (index == array.size - 1) {
-            ad.setNegativeButton(R.string.dialogMoreInfo, DialogInterface.OnClickListener { dialog, which ->
-                val i = Intent(Intent.ACTION_VIEW)
-                i.data = Uri.parse(resources.getString(R.string.link_button_bi))
-                startActivity(i)
-            })
-        }
-
-        ad.show()
-        ad = null
+    //Open sponsor information activity
+    fun openSponsorBreakdown(index: Int) {
+        val listItems = resources.getStringArray(R.array.sponsorListTitles)
+        val intent = Intent(this, SponsorItemActivity::class.java)
+        intent.putExtra("no.larssyversen.fadderullan2018.TITLE", listItems[index])
+        intent.putExtra("no.larssyversen.fadderullan2018.DEALS", R.string.loremIpsum)
+        intent.putExtra("no.larssyversen.fadderullan2018.INDEX", index)
+        startActivity(intent)
     }
 
-    // Calculates wether or not its time to show extra deal
-    fun showExtraInfo (index: Int) : Boolean {
 
-        if (index != 3) { return false }
-
-        val sdf = SimpleDateFormat("yyyy:MM:dd HH:mm:ss")
-        val currentTimeString = sdf.format(Date())
-        val currentTime = sdf.parse(currentTimeString)
-        val targetTime = sdf.parse("2018:07:08 17:04:00")
-
-        Log.d("MVA-SponsorActivity", "Current time: " + currentTime)
-        Log.d("MVA-SponsorActivity", "Target time: " + targetTime)
-
-        return currentTime.after(targetTime)
-    }
 }

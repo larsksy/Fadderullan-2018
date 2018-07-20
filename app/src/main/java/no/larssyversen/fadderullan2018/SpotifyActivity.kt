@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_spotify.*
 import java.util.zip.Inflater
 import android.content.Intent
+import android.graphics.Typeface
 import android.net.Uri
 import android.widget.TextView
 
@@ -24,6 +25,9 @@ class SpotifyActivity : AppCompatActivity() {
         lstSpotify.adapter = mAdapter
 
         lstSpotify.setOnItemClickListener({ parent: AdapterView<*>?, v: View?, i: Int, id: Long -> openSpotifyLink(i) })
+
+        val custom_font = Typeface.createFromAsset(assets, "fonts/Roboto-Regular.ttf")
+        txtTitle.typeface = custom_font
     }
 
     fun openSpotifyLink(index: Int) {

@@ -40,8 +40,9 @@ class ProgramItemActivity : AppCompatActivity() {
     }
 
     fun handleAttendanceButtonClicked(v: View) {
-        val intent = Intent(this, GroupsActivity::class.java)
+        val intent = Intent(this, WebViewActivity::class.java)
         intent.putExtra("no.larssyversen.fadderullan2018.LINK", attendanceLink)
+        intent.putExtra("no.larssyversen.fadderullan2018.TITLE", R.string.webview_title_attendance)
         startActivity(intent)
     }
 }

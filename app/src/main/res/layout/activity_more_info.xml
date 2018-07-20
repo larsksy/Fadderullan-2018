@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/txtTitle"
+        android:id="@+id/txtInfoTitle"
         android:layout_width="0dp"
         android:layout_height="90dp"
         android:layout_marginEnd="16dp"
@@ -36,112 +36,113 @@
 
 
     <Button
-        android:id="@+id/btnMap"
+        android:id="@+id/btnInfoMaps"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
+        android:layout_width="210dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_map"
         android:onClick="handleButtonMapsClicked"
-        android:paddingLeft="30dip"
         android:text="@string/info_button_maps"
         android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnFAQ" />
+        app:layout_constraintTop_toBottomOf="@+id/btnInfoFAQ" />
 
     <Button
-        android:id="@+id/btnFAQ"
+        android:id="@+id/btnInfoFAQ"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
+        android:layout_width="210dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_help"
         android:onClick="handleButtonFAQClicked"
-        android:paddingLeft="30dip"
         android:text="@string/info_button_faq"
         android:textAlignment="textStart"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/txtInfoTitle" />
 
     <Button
-        android:id="@+id/btnInstagram"
+        android:id="@+id/btnInfoInstagram"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
+        android:layout_width="210dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_instagram"
         android:onClick="handleButtonInstagramClicked"
-        android:paddingLeft="30dip"
         android:text="@string/info_button_instagram"
         android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnFacebook" />
+        app:layout_constraintTop_toBottomOf="@+id/btnInfoFacebook" />
 
 
     <Button
-        android:id="@+id/btnAtBI"
+        android:id="@+id/btnInfoAtBI"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
+        android:layout_width="210dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_info_outline_black_24dp"
-        android:paddingLeft="30dip"
-        android:text="@string/info_button_bi"
         android:onClick="handleButtonBIClicked"
+        android:text="@string/info_button_bi"
         android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnInstagram" />
+        app:layout_constraintTop_toBottomOf="@+id/btnInfoInstagram" />
 
     <Button
-        android:id="@+id/btnAbout"
+        android:id="@+id/btnInfoAbout"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
+        android:layout_width="210dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_info_outline_black_24dp"
-        android:paddingLeft="30dip"
         android:onClick="handleButtonAboutClicked"
         android:text="@string/info_button_about"
         android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAtBI" />
+        app:layout_constraintTop_toBottomOf="@+id/btnInfoAtBI" />
 
     <Button
-        android:id="@+id/btnFacebook"
+        android:id="@+id/btnInfoFacebook"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
+        android:layout_width="210dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_facebook"
         android:onClick="handleButtonFacebookClicked"
-        android:paddingLeft="30dip"
         android:text="@string/info_button_facebook"
         android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMap" />
+        app:layout_constraintTop_toBottomOf="@+id/btnInfoMaps" />
 
 </android.support.constraint.ConstraintLayout>

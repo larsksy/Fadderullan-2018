@@ -27,7 +27,8 @@ class ProgramListAdapter constructor(c: Context, items: Array<String>, dates: Ar
         val v: View = mInflater.inflate(R.layout.programlist_detail, null)
         val titleTextView: TextView = v.findViewById(R.id.txtItemTitle)
         val dateTextView: TextView = v.findViewById(R.id.txtDate)
-        val custom_font = Typeface.createFromAsset(assets, "fonts/Roboto-Thin.ttf")
+        val custom_font_thin = Typeface.createFromAsset(assets, "fonts/Roboto-Thin.ttf")
+        val custom_font_regular = Typeface.createFromAsset(assets, "fonts/Roboto-Regular.ttf")
 
         val title: String = listItems[position]
         val date: String = listDates[position]
@@ -35,8 +36,8 @@ class ProgramListAdapter constructor(c: Context, items: Array<String>, dates: Ar
         titleTextView.setText(title)
         dateTextView.setText(date)
 
-        titleTextView.typeface = custom_font
-        dateTextView.typeface = custom_font
+        titleTextView.typeface = custom_font_regular
+        dateTextView.typeface = custom_font_thin
 
         return v
     }

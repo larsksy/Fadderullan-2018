@@ -8,7 +8,7 @@
     <string name="title_activity_spotify">Spotifylister</string>
     <string name="title_activity_more_info">Mer Informasjon</string>
     <string name="title_activity_maps">Sentrale lokasjoner</string>
-    <string name="groups_webview_link">https://www.google.com</string>
+    <string name="placeholder_text">Placeholder text</string>
     <string name="default_notification_channel_id">Generelle Notifikasjoner</string>
     <string name="program_item_button_attendance">Oppmøte</string>
 
@@ -35,14 +35,35 @@
     <string name="link_button_instagram">https://www.instagram.com/fadderullanbi/?hl=nb</string>
     <string name="link_button_facebook">https://www.facebook.com/FadderullanBI/</string>
     <string name="link_button_bi">https://at.bi.no</string>
+    <string name="link_google">https://www.google.com</string>
+
+    <!-- WebView Titles -->
+    <string name="webview_title_groups">Faddergrupper</string>
+    <string name="webview_title_attendance">Oppmøte</string>
 
     <!-- Array for map markers -->
     <string-array name="array_map_markers">
         <item>Dødens Dal</item>
         <item>Studentersamfundet</item>
-        <item>St. Olavs Hospital</item>
+        <item>Legevakt</item>
         <item>BI Campus Trondheim</item>
         <item>Trondheim Torg</item>
+        <item>The Mint</item>
+        <item>Nattergalen</item>
+        <item>Wildside</item>
+        <item>Egon Solsiden</item>
+        <item>Burger King</item>
+        <item>Nova Kinosenter</item>
+        <item>Solsiden</item>
+        <item>Møllenberg</item>
+        <item>Akademika BI Trondheim</item>
+        <item>O\'Learys</item>
+        <item>Frimurerlogoen</item>
+        <item>Royal Garden Radisson Blu</item>
+        <item>Lille London</item>
+        <item>Egon Tårnet</item>
+        <item>3T Pirbadet</item>
+        <item>Cubus Solsiden</item>
     </string-array>
 
     <!-- Array for programlist-elements -->
@@ -132,7 +153,7 @@
         <item>https://open.spotify.com/user/kine.leonardsen/playlist/0y1R4y58T1NnR6aow12OWR</item>
     </string-array>
 
-    <!-- Array for spotifylist links -->
+    <!-- Array for spotifylist URIs -->
     <string-array name="spotifyListUri">
         <item>spotify:user:kine.leonardsen:playlist:4DGpyuPQsGEx7cWZU33zD1</item>
         <item>spotify:user:kine.leonardsen:playlist:05DJLnlhCqZWIKbtNjkWZ5</item>
@@ -177,17 +198,11 @@
             Vi følger suksessoppskriften fra i fjor, med å dele gruppene i to forskjellige puljer å
             sender dere til enten Studio 26, Nattergalen, Diskoteket, Fire fine, Barmuda, Me,
             Trondheim Camping, O\'learys, Egon Solsiden og Lille London. Her vil det foregå
-            forskjellige aktiviteter på alle barene. \n\n
-
-            (Legge inn en egen fane for oppsettet for hvor alle skal møte opp og klokkeslett)
+            forskjellige aktiviteter på alle barene.
         </item>
         <item>Denne kvelden handler om å bli bedre kjent med dine medstudenter. I løpet av kvelden
             går gruppene mellom ulike vors og får muligheten til å hilse på de andre
-            faddergruppene!\n\n
-
-            (I denne fanen kan det være med en egen fane til, for å legge inn hvor de ulike
-            vorsene skal være. En oversikt der alle kan se hvor og hvem som skal møtes. Dette
-            vil være et Excel ark eller wordfil, litt som med faddergruppene)
+            faddergruppene!
         </item>
         <item>Skru på konkurranseinstinktet og finn frem vinnerviljen! Idag er dagen hvor den
             beste faddergruppen skal kåres. BIS idrett vil være godt representert hvor
@@ -196,7 +211,7 @@
             lagfølelse og moral. Det vil også bli servert mat og beste lag stikker av med en
             premie dere garantert vil like! \n\n
 
-            Sted: Dødens dal (Legge inn på fanen Kart, om hvor Dødens Dal er)\n
+            Sted: Dødens dal \n
             Klokkeslett: 17:00
         </item>
         <item>Dette blir en kveld fylt med humor og latter. Vi møtes på selveste Studentersamfundet,

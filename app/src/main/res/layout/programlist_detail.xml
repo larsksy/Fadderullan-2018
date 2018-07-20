@@ -24,6 +24,7 @@
         android:layout_below="@+id/txtItemTitle"
         android:gravity="start|center_vertical"
         android:text="Dato"
+        android:layout_marginBottom="21dp"
         android:textColor="@color/white"
         android:textSize="14sp" />
 </RelativeLayout>

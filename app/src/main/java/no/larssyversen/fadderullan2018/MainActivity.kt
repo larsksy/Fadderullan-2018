@@ -6,8 +6,6 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import android.graphics.Typeface
-import android.util.Log
-import com.google.firebase.iid.FirebaseInstanceId
 
 
 class MainActivity : AppCompatActivity() {
@@ -17,11 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val custom_font = Typeface.createFromAsset(assets, "fonts/Roboto-Thin.ttf")
-        btnFAQ.typeface = custom_font
-        btnMap.typeface = custom_font
-        btnInfo.typeface = custom_font
-        btnFacebook.typeface = custom_font
-        btnInstagram.typeface = custom_font
+        btnMainProgram.typeface = custom_font
+        btnMainGoups.typeface = custom_font
+        btnMainInfo.typeface = custom_font
+        btnMainSponsors.typeface = custom_font
+        btnMainSpotify.typeface = custom_font
     }
 
     fun handleButtonProgramClicked(v: View) {
@@ -40,7 +38,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun handleButtonGroupsClicked(v: View) {
-        val intent = Intent(this, GroupsActivity::class.java)
+        val intent = Intent(this, WebViewActivity::class.java)
+        intent.putExtra("no.larssyversen.fadderullan2018.LINK", resources.getString(R.string.link_google))
+        intent.putExtra("no.larssyversen.fadderullan2018.TITLE", R.string.webview_title_groups)
         startActivity(intent)
     }
 
