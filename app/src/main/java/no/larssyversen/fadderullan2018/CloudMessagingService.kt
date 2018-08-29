@@ -32,9 +32,13 @@ class CloudMessagingService : FirebaseMessagingService() {
         // Check if message contains a notification payload.
         if (remoteMessage.notification != null) {
             Log.d(TAG, "Message Notification Body: " + remoteMessage.notification!!.body!!)
-            sendNotification(remoteMessage.notification!!.body!!)
-        }
 
+            if (remoteMessage.notification!!.title != null ){
+                sendNotification(remoteMessage.notification!!.body!!, remoteMessage.notification!!.title!!)
+            } else {
+                sendNotification(remoteMessage.notification!!.body!!, "Ny oppdatering")
+            }
+        }
     }
 
 
@@ -59,7 +63,7 @@ class CloudMessagingService : FirebaseMessagingService() {
     }
 
 
-    private fun sendNotification(messageBody: String) {
+    private fun sendNotification(messageBody: String, messageTitle: String) {
         val intent = Intent(this, MainActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         val pendingIntent = PendingIntent.getActivity(this, 0 , intent,
@@ -69,7 +73,7 @@ class CloudMessagingService : FirebaseMessagingService() {
         val defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         val notificationBuilder = NotificationCompat.Builder(this, channelId)
                 .setSmallIcon(R.drawable.ic_icon_notification)
-                .setContentTitle(resources.getString(R.string.app_name))
+                .setContentTitle(messageTitle)
                 .setContentText(messageBody)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)

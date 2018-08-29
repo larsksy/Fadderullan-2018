@@ -2,15 +2,26 @@
 
     <!-- General -->
     <string name="app_name">FRtrondheim</string>
-    <string name="title_activity_program">Program for fadderuka 2018</string>
+    <string name="title_activity_program">PROGRAM</string>
     <string name="title_activity_program_item">ProgramItemActivity</string>
-    <string name="title_activity_sponsor">Offisielle sponsorer av Fadderullan</string>
-    <string name="title_activity_spotify">Spotifylister</string>
-    <string name="title_activity_more_info">Mer Informasjon</string>
-    <string name="title_activity_maps">Sentrale lokasjoner</string>
+    <string name="title_activity_sponsor">SPONSORER</string>
+    <string name="title_activity_spotify">SPOTIFY LISTER</string>
+    <string name="title_activity_more_info">MER INFORMASJON</string>
+    <string name="title_activity_maps">KART</string>
+    <string name="title_activity_groups">FADDERGRUPPER</string>
     <string name="placeholder_text">Placeholder text</string>
     <string name="default_notification_channel_id">Generelle Notifikasjoner</string>
-    <string name="program_item_button_attendance">Oppmøte</string>
+    <string name="program_item_button_action_default">Se tilbud</string>
+    <string name="sponsor_button_more_offers">Flere tilbud</string>
+    <string name="dialog_not_available">Ikke tilgjengelig</string>
+    <string name="dialog_availability_spotify">Denne spillelisten blir tilgjengelig 20. August</string>
+    <string name="dialog_availability_shopping">Disse blir tilgjengelig 20. August</string>
+    <string name="dialog_google_services_title">Google Services ikke tilgjenelig eller utdatert</string>
+    <string name="dialog_google_services_message">Fant ikke gyldig Google Play Services på din enhet.
+        Bruk av kart vil kan være utilgjengelig.</string>
+    <string name="dialog_google_services_download">Last ned</string>
+    <string name="link_google_services">https://play.google.com/store/apps/details?id=com.google.android.gms&amp;hl=nb</string>
+    <string name="link_bi_more_offers">http://www.bis.no/trondheim/markedsavtaler/</string>
 
     <!-- Home screen button text -->
     <string name="home_button_sponsor">Sponsorer</string>
@@ -18,6 +29,12 @@
     <string name="home_button_groups">Faddergrupper</string>
     <string name="home_button_program">Program</string>
     <string name="home_button_info">Mer informasjon</string>
+
+    <!-- Groups button text -->
+    <string name="button_groups_economy">Økonomi og administrasjon</string>
+    <string name="button_groups_marketing">Markedsføringsledelse</string>
+    <string name="button_groups_realestate">Eiendomsmegling</string>
+    <string name="button_groups_others">Blandingsgrupper</string>
 
     <!-- More Info screen button text -->
     <string name="info_button_faq">FAQ</string>
@@ -28,18 +45,44 @@
     <string name="info_button_about">Om appen</string>
 
     <!-- About dialog text -->
-    <string name="dialog_text_about">Appen er utviklet av Lars Syversen, i samarbeid med
-        E&amp;A design AS.</string>
+    <string name="dialog_text_about">Appen er utviklet av Lars Kåre Syversen, i samarbeid med
+        E&amp;A Design AS.</string>
+
+    <!-- Groups google docs links -->
+    <string name="link_google_doc_economy">https://docs.google.com/spreadsheets/d/1pj5EL51zT5DKiYyMZ0Y2d6cm9wOQNH6U-_z62Zc3k6w/edit#gid=0</string>
+    <string name="link_google_doc_marketing">https://docs.google.com/spreadsheets/d/1-C-rTRuYbkr7EWtDdCf8wEulGOLccBk3E9LToKVuw1M/edit#gid=0</string>
+    <string name="link_google_doc_realestate">https://docs.google.com/spreadsheets/d/1buEg8zmPmi3xwFQSX2K4oLbGWivzWfXW_TRh_inmqGU/edit#gid=0</string>
+    <string name="link_google_doc_others">https://docs.google.com/spreadsheets/d/1QJB_kMVGdxTz5kV77d3hwq7mPn1Bp0zV5dVK3xZV5Nw/edit#gid=0</string>
+    <string name="link_google_doc_shopping">https://docs.google.com/document/d/16PWIL86mLue75pCpL8qbC36rE3iSai6c0nX2z1KtFkU/edit</string>
+
+    <!-- Programlist overhead info -->
+    <string name="program_list_overhead_conctacts">Kontakt eventmanager for spørsmål
+        angående arrangementene:</string>
+    <string name="program_list_overhead_facebook">Facebook:</string>
+    <string name="program_list_overhead_name1">Camilla Andreassen</string>
+    <string name="program_list_overhead_name2">Elisabeth Aagaard</string>
+    <string name="program_list_overhead_number1">954 59 153</string>
+    <string name="program_list_overhead_number2">908 82 788</string>
+
+    <!-- Groups overhead info -->
+    <string name="groups_overhead_conctacts">Kontakt fadderkoordinator for spørsmål
+        angående faddergrupper:</string>
+    <string name="groups_overhead_facebook">Facebook:</string>
+    <string name="groups_overhead_name1">Maren Olsø</string>
+    <string name="groups_overhead_name2">Bjørn Ø.L. Wigdal</string>
+    <string name="groups_overhead_number1">902 16 000</string>
+    <string name="groups_overhead_number2">974 65 632</string>
 
     <!--Links -->
-    <string name="link_button_instagram">https://www.instagram.com/fadderullanbi/?hl=nb</string>
-    <string name="link_button_facebook">https://www.facebook.com/FadderullanBI/</string>
+    <string name="link_button_instagram">https://www.instagram.com/fadderullan_trondheim/</string>
+    <string name="link_button_facebook">https://www.facebook.com/bistrondheim/</string>
     <string name="link_button_bi">https://at.bi.no</string>
     <string name="link_google">https://www.google.com</string>
 
     <!-- WebView Titles -->
     <string name="webview_title_groups">Faddergrupper</string>
-    <string name="webview_title_attendance">Oppmøte</string>
+    <string name="webview_title_offers">Se tilbud</string>
+    <string name="webview_title_more_offers">Flere tilbud</string>
 
     <!-- Array for map markers -->
     <string-array name="array_map_markers">
@@ -72,28 +115,13 @@
         <item>Trønderfest</item>
         <item>Bar til bar</item>
         <item>Vors til vors</item>
-        <item>Idrettsdag</item>
+        <item>BIS-Lekene</item>
         <item>Temakveld</item>
         <item>Togafest</item>
-        <item>Karrierekveld</item>
+        <item>Shop til you drop + Karrierekveld</item>
         <item>Linje Vors</item>
         <item>Silent Disco</item>
-        <item>Club Kamelen</item>
-    </string-array>
-
-    <!-- Array for programlist titles -->
-    <string-array name="programListTitles">
-        <item>Mexican fiesta</item>
-        <item>Trønderfest</item>
-        <item>Bar til bar</item>
-        <item>Vors til vors</item>
-        <item>De BIolympiske lekene</item>
-        <item>Temakveld</item>
-        <item>Togafest</item>
-        <item>Karrierekveld</item>
-        <item>Linje Vors</item>
-        <item>Silent Disco</item>
-        <item>Ka me Klubbkamel?</item>
+        <item>The Big Bang</item>
     </string-array>
 
     <!-- Array for programlist dates -->
@@ -113,33 +141,54 @@
 
     <!-- Array for sponsorlist titles -->
     <string-array name="sponsorListTitles">
-        <item>mCASH, Sparebank 1 SMN og Eiendomsmegler 1</item>
+        <item>Mercursenteret</item>
+        <item>Byhaven</item>
+        <item>Eplehuset</item>
+        <item>Studio 26</item>
         <item>Egon Solsiden</item>
-        <item>Egon Tårnet</item>
-        <item>O\'Learys</item>
-        <item>Nattergalen</item>
-        <item>The Mint</item>
-        <item>Wildside</item>
-        <item>3T - Trim, trening og trivsel</item>
-        <item>PhoneRep</item>
-        <item>Xiaomi</item>
-        <item>Akademika</item>
-        <item>Cubus Solsiden</item>
-        <item>Invitee</item>
-        <item>SUSHI BAR</item>
-        <item>Big Horn</item>
-        <item>Se flere aktuelle tilbud</item>
+        <item>Heimdal Trafikkskole</item>
+        <item>ME nightclub</item>
     </string-array>
+
+    <!-- Array for sponsorlist titles -->
+    <string-array name="sponsorDeals">
+        <item>Mercursenteret er et kjøpesenter i Trondheim med 20 butikker og ligger i Midtbyen
+            i krysset mellom Kongens gate og Nordre gate. \n\n20. August slippes det en hel
+            rekke med tilbud fra senteret som BI elever får benytte seg av tirsdag den 22. August.
+            </item>
+        <item>Byhaven er et kjøpesenter i sentrum av Trondheim i Olav Tryggvasons gate 28.\n\n
+            Senteret har til sammen 42 butikker og spisesteder.\n\n 20. August slippes det en hel
+            rekke med tilbud fra senteret som BI elever får benytte seg av tirsdag
+            den 22. August.</item>
+        <item>Alltid studentrabatt på Mac og Ipad. \n\n Vi har alt du trenger for de store
+            og små øyeblikkene i løpet av studentlivet.</item>
+        <item>Gratis inngang, garderobe og bordreservering på fredager før kl. 00:00. \n\n
+            Gratis inngang, garderobe og bordservering på lørdager før kl. 23:30. \n\n
+            Bordreservering gjøres direkte på www.studio26.no \n\n
+            Å vise studentbevis gjennom appen fungerer ikke,
+            du må fremvise fysisk BI kort i plast, med bilde og navn. \n\n
+            Når BIS har arrangementer på Studio26 vil det være gode priser på blant annet øl!
+            </item>
+        <item>Egon har et bredt utvalg fingermat.\n\n Husk at du som BI Student
+            får 15% rabatt på all mat ved Egon Solsiden.</item>
+        <item>Våre avdelinger finner dere på Heimdal, Midtbyen, Byåsen, Melhus, Tyholt og
+            Tiller.\n\n På Heimdal finner du også vår storbilavdeling. Dette gjør oss til en av
+            dine nærmeste kjøreskoler i Trondheim. </item>
+        <item>Me nightclub er en nattklubb som inkluderer alle uansett legning.\n\n
+            En av de mest kjente dansegulvene i byen @menightclub
+            </item>
+    </string-array>
+
 
     <!-- Array for spotifylist titles -->
     <string-array name="spotifyListTitles">
-        <item>Fadderkickoff: 13/08</item>
-        <item>Mexican Fiesta: 15/08</item>
-        <item>Trønderfest: 16/08</item>
-        <item>Vors til vors: 18/08</item>
-        <item>Toga: 21/08</item>
-        <item>Linjevors: 23/08</item>
-        <item>Ka me klubbkamel?: 25/08</item>
+        <item>Fadderkickoff</item>
+        <item>Mexican Fiesta</item>
+        <item>Trønderfest</item>
+        <item>Vors til vors</item>
+        <item>Toga</item>
+        <item>Linjevors</item>
+        <item>The Big Bang</item>
     </string-array>
 
     <!-- Array for spotifylist links -->
@@ -175,106 +224,126 @@
 
     <!-- Array for programlist descriptions -->
     <string-array name="programListDescriptions">
-        <item>Denne kvelden tar vi med oss lyden, kulturen og smaken av Mexico til Fadderullan.
-            Ta på deg ditt beste meksikanske kostyme med sombrero, poncho og maracas. Her blir det
-            disket opp med obligatorisk tacovors med faddergruppen. Senere på kvelden møtes vi på
-            Studio 26 hvor den spinnville festen fortsetter langt uti i de sene timer for dans og
-            festligheter.\n\n
+        <item>Etter at administrasjonen er ferdig med sitt, er fadderullan i full gang og det er på
+            tide at dere får møte fadderstyret og fadderne! Denne dagen vil dere få tildelt
+            faddergruppene og deretter blir det salg av fadderullan-bånd. \n\n
 
-            Klokkeslett: 22:00.
+            Videre drar dere med faddergruppen på vors. Denne kvelden tar vi med oss lyden,
+            kulturen og smaken av Mexico til Fadderullan! Ta på deg ditt beste meksikanske
+            kostyme med sombrero, poncho og maracas. Her blir det disket opp med obligatorisk
+            tacovors med faddergruppen, og senere på kvelden møtes vi på Studio 26 hvor den
+            spinnville festen fortsetter langt ut i de sene timer! \n\n
+
+            Klokkeslett: 22:00
         </item>
         <item>La barten gro og gjør deg klar for en trøndersk aften. Det er ingen skikkelig
-            fadderuke i Trondheim uten trønderfæst! Finn frem din rutete skjorte, slitte jeans og
-            lange tennissokker for dette blir en festlig, og ikke minst en harry aften! Kvelden
+            fadderuke i Trondheim uten trønderfæst! Finn frem den rutete skjorta, slitte jeans og
+            lange tennissokker for dette blir en festlig, og ikke minst harry aften! Kvelden
             rundes av på Studio 26 der den gode stemningen fortsetter. OBS! Ikke glem at det bli
             itj fæst uten skinnvæst.\n\n
 
             Klokkeslett: 22:00
         </item>
-        <item>På denne dagen vil du få et innblikk i noen av de mange barene og pubene som
-            Trondheim har å by på. Dette er en fin mulighet til å bli kjent på tvers av
-            faddergruppene og finne frem vinnerinnstinktet i deg.\n\n
+        <item>På denne dagen vil du få et innblikk i noen av de mange barene og pubene Trondheim
+            har å by på! Dette er en fin mulighet til å bli kjent med Trondheim by og de andre
+            fantastiske faddergruppene på tvers! \n\n
 
-            Vi følger suksessoppskriften fra i fjor, med å dele gruppene i to forskjellige puljer å
-            sender dere til enten Studio 26, Nattergalen, Diskoteket, Fire fine, Barmuda, Me,
-            Trondheim Camping, O\'learys, Egon Solsiden og Lille London. Her vil det foregå
-            forskjellige aktiviteter på alle barene.
+            Vi følger suksessoppskriften fra i fjor, med å dele gruppene i to forskjellige
+            puljer å sender dere til enten Studio 26, Nattergalen, Diskoteket, Fire fine, Barmuda
+            , Me, Trondheim Camping, O\'learys, Egon Solsiden og Lille London. Her vil det bli arrangert
+            beerpong, ragecage, minigolf og andre gøyale aktiviteter! Bring the A-game, for
+            vinnerlaget vil motta en fet premie! Fadderne vil lede faddergruppa si gjennom hele
+            runden. Oppmøte får dere informasjon om i god tid før.  \n\n
+
+            Klokkeslett: 14:00 – 19:00
+
         </item>
         <item>Denne kvelden handler om å bli bedre kjent med dine medstudenter. I løpet av kvelden
             går gruppene mellom ulike vors og får muligheten til å hilse på de andre
-            faddergruppene!
+            faddergruppene! Mer informasjon om oppmøte vil fadderne deres få i god tid før.
         </item>
-        <item>Skru på konkurranseinstinktet og finn frem vinnerviljen! Idag er dagen hvor den
+        <item>Skru på konkurranseinstinktet og finn frem vinnerviljen! Dette er dagen hvor den
             beste faddergruppen skal kåres. BIS idrett vil være godt representert hvor
-            faddergruppene skal gå igjennom en rekke aktiviteter fra blant annet fotball og
+            faddergruppene skal gå igjennom en rekke aktiviteter som blant annet cageball og
             vollyball! Her er det klart for å avgjøre hvilke faddergrupper som har skapt best
-            lagfølelse og moral. Det vil også bli servert mat og beste lag stikker av med en
+            lagfølelse! Det vil også bli servert mat og beste lag stikker av med en
             premie dere garantert vil like! \n\n
 
             Sted: Dødens dal \n
-            Klokkeslett: 17:00
+            Klokkeslett: 14:00
         </item>
-        <item>Dette blir en kveld fylt med humor og latter. Vi møtes på selveste Studentersamfundet,
-            der vi kan garantere for en latterfull show av Piateed, Ole Soo og Jonna Støme kjent
-            fra Latter! \n\n
+        <item>Dette blir en kveld fylt med humor og latter! Vi møtes på Studentersamfundet,
+            der vi garantere for god stemning og latterfull show av Piateed, Ole Soo og Jonna
+            Støme kjent fra Latter! OBS! Det blir også mulighet til å kjøpe alkohol i salen,
+            dermed er det viktig å møte opp i god tid for å både sikre seg plasser og få bestilt
+            drikke før selve showet. \n\n
 
-            MARIA STAVANG AKA PIATEED\n
+            MARIA STAVANG AKA PIATEED \n
             Maria Stavang er et nytt stjerneskudd på komiker himmelen. Allerede i sommeren 2015
             startet den unge Bergenseren med standup-scenen og i 2016 tok hun med seg en av de
             unike prisene, “Årets Nykommer” på Humorfest i Bergen. Denne jenta er flink til å
-            sjarmere, samtidig som hun er god til å by på seg selv!\n\n
+            sjarmere, samtidig som hun er god til å by på seg selv! \n\n
 
-            OLE SOO\n
+            OLE SOO \n
             Ole Soo er en komiker som har jobbet seg frem med rakettfart i det norske standup
             miljøet. Han startet sin karriere i Bergen 2010, og hvor han nå står fast på Latter i
             Oslo. Han har tidligere skrevet for blant annet for Johan Golden, Stian Blipp Show og
-            Sturla Berg Johansen. En kveld med Ole garanterer god stemning og masse latter.\n\n
+            Sturla Berg Johansen. En kveld med Ole garanterer god stemning og masse latter. \n\n
 
-            JONNA STØME\n
-            Siden debuten i 2000 har Jonna Støme gjort suksess som komiker landet rundt. Jonna har
-            en unik evne til å finne de bittesmå tingene i hverdagen som vi alle kjenner oss igjen
-            i og blåse dem opp til uante proporsjoner. Sørg for å få med deg en kveld med en av
-            landets mest populære komikere!\n\n
+            JONNA STØME \n
+            Siden debuten i 2000 har Jonna Støme gjort suksess som komiker landet rundt.
+            Jonna har en unik evne til å finne de bittesmå tingene i hverdagen som vi alle
+            kjenner oss igjen i og blåse dem opp til uante proporsjoner. Sørg for å få med deg
+            en kveld med en av landets mest populære komikere! \n\n
 
-            Klokkeslett: 18:00-21:00
+            Klokkeslett: Dørene åpner 18:00, showet starter 19:00 og vil vare i ca. 80 min
         </item>
-        <item>Finn frem din indre guddommelige side og kle deg opp på romersk vis med fletter,
-            laken og krans. Bli med fadderne deres og lag fantastisk togastemning på vors før dere
-            bærer kostymet videre til Studio 26 kl: 22:00 som også vil være pyntet opp for en
-            romersk helaften.\n\n
+        <item>Da er det duket for det anerkjente og tradisjonelle togafesten! Finn frem din
+            guddommelige side og kle deg opp på romersk vis med fletter, laken og krans.
+            Bli med fadderne deres og lag fantastisk toga stemning på vors før dere bærer
+            kostymet videre til Studio 26 som også vil være pyntet opp for en romersk helaften.\n\n
 
             Klokkeslett: 22:00
         </item>
-        <item>Lurer du på hvilke muligheter som ligger til rette etter du er ferdig utdannet?
-            Da er dette kvelden for deg! Våre samarbeidspartnere vil stå på stand, hvor det er
-            muligheter for mingling og ulike konkurranser med diverse premier! I tillegg til
-            dette vil det være ulike bedriftspresentasjoner som gir deg et innblikk i hvordan
-            hverdagen blir etter studiet. \n\n
+        <item>Gratulerer med å ha overlevd en ukes BI-madness! Vi vil i den anledningen belønne
+            dere med en velfortjent recoverydag. Hva med å ta turen innom frisøren for en
+            avslappende hodemassasje og klipp? Eller hva med å oppdatere garderoben med et nytt
+            fresh antrekk? I samarbeid med Byhaven og Mercur kjøpesenter får dere unike tilbud
+            som kan benyttes denne dagen! Tilbudene slippes 20. Aug her på appen! \n\n
 
-            Dress to impress, dette blir en formell aften.\n\n
-            Klokkeslett: 16:00
+            Senere på dagen er det duket for karrierekveld! Lurer du på hvilke muligheter som
+            ligger til rette etter du er ferdig utdannet? Da er dette kvelden for deg! Våre
+            samarbeidspartnere vil stå på stand, hvor det er muligheter for mingling og ulike
+            konkurranser med diverse premier! I tillegg vil det være ulike bedriftspresentasjoner
+            som gir deg et innblikk i hvordan hverdagen blir etter studie. IKKE gå glipp av denne
+            kvelden hvor du kan skaffe deg verdifulle kontakter du kan få bruk for, både underveis
+            og etter endt studie! Dress to impress, dette blir en formell aften. \n\n
+
+            Sted: BI Trondheim \n
+            Klokkeslett: 17:00
         </item>
-        <item>I kveld er tiden for å bli kjent med dine klassekamerater! Kvelden gir deg en unik
-            mulighet til å bli kjent med andre studenter og kan skape et vennskap som du kommer til
-            å ha resten av livet. Det blir brettspill, kort og festligheter for de som
-            ønsker det.\n\n
+        <item>Den ultimate aften for å bli kjent med dine klassekamerater! Kvelden gir deg en
+            unik mulighet til å bli kjent med andre medstudenter og kanskje det er nettopp her
+            DU finner deg din fremtidige partner til cavasøndag eller kollokviegruppe! Vors blir
+            delt inn etter de ulike studiene fordelt på de ulike klubbene på Studentersamfundet!
+            vil være salg av alkohol, festlige aktiviteter og brettspill for de som ønsker det. \n\n
 
-            Klokken 18:00 åpner dørene for BI studenter på Studentersamfundet, og
-            vors blir delt inn etter de ulike linjene. \n\n
-
-            Klokkeslett: 18:00-21:00
+            Sted: Studentersamfundet \n
+            Klokkeslett: 18:00-21:00 (etter kl 21:00 åpnes Samfundet for alle)
         </item>
         <item>For første gang i Fadderullan Trondheim sin historie introduserer vi Silent Disco!
             Finn musikkanalen som passer best for deg, og slå deg løs på dansegulvet med dine
-            likesinnede. (må finne location) \n\n
+            likesinnede. \n\n
 
-            Klokkeslett: (KOMMER)
+            Sted: Frimurerlogen \n
+            Klokkeslett: 22:00
         </item>
-        <item>Nå er Fadderullan kommet til en ende og vi avslutter det med et smell!
-            Selveste Bergens rapperen Kamelen kommer til Frimurerlogen og skal koke opp
-            lokalet til en sinnsyk fest! \n\n
+        <item>Fadderullan er kommet til en ende og vi avslutter det med et smell! Sleng på deg
+            partybuksa og møt opp, for fadderullans aller siste kveld vil du IKKE gå glipp av!
+            Her vil vi ikke avsløre for mye så stay tuned.. \n\n
 
-            Klokkeslett: (KOMMER)
+            Sted: Frimurerlogen \n
+            Klokkeslett: Dørene åpner 22:00
         </item>
     </string-array>
 

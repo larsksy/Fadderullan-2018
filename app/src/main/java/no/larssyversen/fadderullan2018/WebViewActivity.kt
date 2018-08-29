@@ -13,6 +13,9 @@ class WebViewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_webview)
 
         webView.webViewClient = WebViewClient()
+        webView.settings.javaScriptEnabled = true
+        webView.settings.javaScriptCanOpenWindowsAutomatically = true
+
 
         if (intent.hasExtra("no.larssyversen.fadderullan2018.LINK")) {
             val bundle = intent.extras

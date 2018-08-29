@@ -12,6 +12,7 @@ import android.content.Intent
 import android.graphics.Typeface
 import android.net.Uri
 import android.widget.TextView
+import android.widget.Toast
 
 
 class SpotifyActivity : AppCompatActivity() {
@@ -31,6 +32,18 @@ class SpotifyActivity : AppCompatActivity() {
     }
 
     fun openSpotifyLink(index: Int) {
+
+        if (index == 6 && !DateManager.dateCalc("2018:08:20 00:00:00")) {
+            var ad: AlertDialog.Builder? = AlertDialog.Builder(this)
+            ad!!.setTitle(R.string.dialog_not_available)
+            ad.setMessage(R.string.dialog_availability_spotify)
+            ad.setPositiveButton(R.string.dialogOk, null)
+
+            ad.show()
+            ad = null
+            return
+        }
+
         val uris = resources.getStringArray(R.array.spotifyListUri)
         val links = resources.getStringArray(R.array.spotifyListLinks)
 
@@ -42,5 +55,6 @@ class SpotifyActivity : AppCompatActivity() {
             i = Intent(Intent.ACTION_VIEW, Uri.parse(links[index]))
             startActivity(i)
         }
+
     }
 }

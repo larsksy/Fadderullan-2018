@@ -34,12 +34,25 @@
             android:name=".SponsorActivity"
             android:label="@string/title_activity_sponsor"
             android:screenOrientation="portrait" />
-        <activity android:name=".SpotifyActivity" />
-        <activity android:name=".WebViewActivity" />
-        <activity android:name=".MoreInfoActivity" />
+        <activity
+            android:name=".SpotifyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".WebViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MoreInfoActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SponsorItemActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".GroupsActivity"
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -52,7 +65,7 @@
             android:resource="@color/colorPrimary" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
-            android:value="@string/default_notification_channel_id"/>
+            android:value="@string/default_notification_channel_id" />
 
         <service android:name=".CloudMessagingService">
             <intent-filter>
@@ -60,7 +73,7 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".SponsorItemActivity"/>
+
     </application>
 
 </manifest>

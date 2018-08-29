@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/txtProgramTitle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtOverheadContacts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/groups_overhead_conctacts"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtOverheadFacebook1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtOverheadContacts"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/groups_overhead_facebook"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtOverheadFacebook2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOverheadContacts" />
+
+    <TextView
+        android:id="@+id/txtOverheadFacebook2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtOverheadContacts"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/groups_overhead_facebook"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtOverheadPerson1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txtOverheadFacebook1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/groups_overhead_name2"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtOverheadPerson2"
+        app:layout_constraintStart_toEndOf="@+id/txtOverheadFacebook1"
+        app:layout_constraintTop_toBottomOf="@+id/txtOverheadContacts" />
+
+    <TextView
+        android:id="@+id/txtOverheadPerson2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/txtOverheadPerson1"
+        android:layout_alignTop="@+id/txtOverheadFacebook2"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/groups_overhead_name1"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtOverheadFacebook2" />
+
+    <ImageView
+        android:id="@+id/imageViewPhone2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/txtOverheadFacebook1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@+id/txtOverheadNumber1"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewPhone1"
+        app:layout_constraintStart_toEndOf="@+id/txtOverheadPerson1"
+        app:layout_constraintTop_toBottomOf="@+id/txtOverheadContacts"
+        app:srcCompat="@drawable/ic_tlf" />
+
+    <ImageView
+        android:id="@+id/imageViewPhone1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/imageViewPhone2"
+        android:layout_alignTop="@+id/txtOverheadFacebook2"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtOverheadPerson1"
+        app:srcCompat="@drawable/ic_tlf" />
+
+    <TextView
+        android:id="@+id/txtOverheadNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txtOverheadFacebook1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/groups_overhead_number2"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtOverheadNumber2"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPhone2"
+        app:layout_constraintTop_toBottomOf="@+id/txtOverheadContacts" />
+
+    <TextView
+        android:id="@+id/txtOverheadNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/txtOverheadNumber1"
+        android:layout_alignTop="@+id/txtOverheadFacebook2"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/groups_overhead_number1"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPhone1" />
+
+</android.support.constraint.ConstraintLayout>

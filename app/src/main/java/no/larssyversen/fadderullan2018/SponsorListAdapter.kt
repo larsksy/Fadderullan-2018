@@ -29,6 +29,7 @@ class SponsorListAdapter constructor(c: Context, items: Array<String>, am: Asset
 
         val title: String = listItems[position]
 
+
         itemText.setText(title)
         itemText.gravity = Gravity.CENTER_VERTICAL
 

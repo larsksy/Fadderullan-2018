@@ -1,7 +1,6 @@
 package no.larssyversen.fadderullan2018
 
 import android.app.AlertDialog
-import android.content.DialogInterface
 import android.content.Intent
 import android.graphics.Typeface
 import android.net.Uri
@@ -10,6 +9,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_more_info.*
+
 
 class MoreInfoActivity : AppCompatActivity() {
 
@@ -20,38 +20,44 @@ class MoreInfoActivity : AppCompatActivity() {
         val custom_font_regular = Typeface.createFromAsset(assets, "fonts/Roboto-Regular.ttf")
         val custom_font_thin = Typeface.createFromAsset(assets, "fonts/Roboto-Thin.ttf")
         txtInfoTitle.typeface = custom_font_regular
-        btnInfoAbout.typeface = custom_font_thin
-        btnInfoAtBI.typeface = custom_font_thin
-        btnInfoFAQ.typeface = custom_font_thin
-        btnInfoFacebook.typeface = custom_font_thin
-        btnInfoInstagram.typeface = custom_font_thin
-        btnInfoMaps.typeface = custom_font_thin
+        txtInfoAbout.typeface = custom_font_thin
+        txtInfoAtBI.typeface = custom_font_thin
+        txtInfoFacebook.typeface = custom_font_thin
+        txtInfoInstagram.typeface = custom_font_thin
+        txtInfoMaps.typeface = custom_font_thin
+
+        // Ugly hack to get button with image and text
+        btnInfoMaps.setOnClickListener({ handleButtonMapsClicked() })
+        btnInfoFacebook.setOnClickListener({ handleButtonFacebookClicked() })
+        btnInfoInstagram.setOnClickListener({ handleButtonInstagramClicked() })
+        btnInfoAtBI.setOnClickListener({ handleButtonBIClicked() })
+        btnInfoAbout.setOnClickListener({ handleButtonAboutClicked() })
     }
 
-    fun handleButtonMapsClicked(v: View) {
+    fun handleButtonMapsClicked() {
         val intent = Intent(this, MapsActivity::class.java)
         startActivity(intent)
     }
 
-    fun handleButtonInstagramClicked(v: View) {
+    fun handleButtonInstagramClicked() {
         val i = Intent(Intent.ACTION_VIEW)
         i.data = Uri.parse(resources.getString(R.string.link_button_instagram))
         startActivity(i)
     }
 
-    fun handleButtonFacebookClicked(v: View) {
+    fun handleButtonFacebookClicked() {
         val i = Intent(Intent.ACTION_VIEW)
         i.data = Uri.parse(resources.getString(R.string.link_button_facebook))
         startActivity(i)
     }
 
-    fun handleButtonBIClicked(v: View) {
+    fun handleButtonBIClicked() {
         val i = Intent(Intent.ACTION_VIEW)
         i.data = Uri.parse(resources.getString(R.string.link_button_bi))
         startActivity(i)
     }
 
-    fun handleButtonAboutClicked(v: View) {
+    fun handleButtonAboutClicked() {
         val text = resources.getString(R.string.dialog_text_about)
         val view: View = layoutInflater.inflate(R.layout.sponsorlist_dialog, null)
         val itemText: TextView = view.findViewById(R.id.txtInfo)

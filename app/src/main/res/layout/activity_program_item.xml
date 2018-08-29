@@ -36,7 +36,7 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/txtItemDescription"
@@ -54,16 +54,18 @@
 
 
             <Button
-                android:id="@+id/btnProgramItemAttendance"
+                android:id="@+id/btnProgramItemAction"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:background="#90000000"
-                android:onClick="handleAttendanceButtonClicked"
-                android:text="@string/program_item_button_attendance"
+                android:background="@drawable/roundbutton"
+                android:onClick="handleActionButtonClicked"
+                android:text="@string/program_item_button_action_default"
                 android:textColor="@color/white"
                 android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtItemDescription" />
